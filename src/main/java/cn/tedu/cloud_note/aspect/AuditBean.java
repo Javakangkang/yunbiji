@@ -13,6 +13,9 @@ public class AuditBean {
 	public Object audit(
 			ProceedingJoinPoint point){
 		Object obj=null;
+
+
+
 		
 		try {
 			long timeStart=System.currentTimeMillis();
